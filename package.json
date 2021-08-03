@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlbertSawZ/tetlamamaka-server/issues"
   },
-  "homepage": "https://github.com/AlbertSawZ/tetlamamaka-server#readme"
+  "homepage": "https://github.com/AlbertSawZ/tetlamamaka-server#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.6"
+  }
 }
