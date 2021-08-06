@@ -30,6 +30,18 @@ Scripts that you can set up to run at certain events in the Git lifecycle.
 
 ---
 
+## jest
+
+### ```jest.config.js```
+
+- **roots**: list of paths to directories that Jest should use to search for files in.
+- **collectCoverageFrom**: array of glob patterns indicating a set of files for which coverage information should be collected.
+- **coverageDirectory**: the directory where Jest should output its coverage files.
+- **testEnvironment**: test environment that will be used for testing.
+- **transform**: a map from regular expressions to paths to transformers. A transformer is a module that provides a synchronous function for transforming source files. Jest runs the code in your project as JS, but if you use some syntax not supported by Node.js out of the box (like TS) then you'll need to transform that code into plain JS. *{filePattern: ['path-to-transformer´]}*
+
+---
+
 ## lint-staged
 
 To run linters against staged files. By doing so you can ensure no errors go into the repository and enforce code style.
@@ -37,6 +49,12 @@ To run linters against staged files. By doing so you can ensure no errors go int
 ### ```.lintstagedrc.json```
 
 - ***.ts**: matches all TS files. An array is passed to run multiple commands in a sequence.
+
+---
+
+## ts-jest
+
+Jest transformer with source map support that lets you use Jest to test projects written in TypeScript.
 
 # FILES
 
