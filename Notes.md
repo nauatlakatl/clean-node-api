@@ -48,7 +48,9 @@ To run linters against staged files. By doing so you can ensure no errors go int
 
 ### ```.lintstagedrc.json```
 
-- ***.ts**: matches all TS files. An array is passed to run multiple commands in a sequence.
+Configuration is an object where each value is a command to run and its key is a glob pattern to use for this command.
+
+- ***.ts**: matches all TS files. An array is passed to run multiple commands in a sequence. This config will execute the array of commands with the list of currently staged files passed as arguments.
 
 ---
 
