@@ -40,6 +40,10 @@ Scripts that you can set up to run at certain events in the Git lifecycle.
 - **testEnvironment**: test environment that will be used for testing.
 - **transform**: a map from regular expressions to paths to transformers. A transformer is a module that provides a synchronous function for transforming source files. Jest runs the code in your project as JS, but if you use some syntax not supported by Node.js out of the box (like TS) then you'll need to transform that code into plain JS. *{filePattern: ['path-to-transformer´]}*
 
+### FLAGS
+
+- --passWithNoTests: allows the test suite to pass when no files are found
+
 ---
 
 ## lint-staged
