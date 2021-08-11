@@ -44,6 +44,7 @@ Scripts that you can set up to run at certain events in the Git lifecycle.
 ### FLAGS
 
 - --passWithNoTests: allows the test suite to pass when no files are found
+- --watch: watch files for changes and rerun tests related to changed files
 
 ---
 
