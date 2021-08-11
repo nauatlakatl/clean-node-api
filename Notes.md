@@ -8,6 +8,10 @@ ESLint is a tool for identifying and reporting on patterns found in JS code.
 
 Configuration file to specify configuration information for an entire directory and all of its subdirectories. Can be in the form of .eslintrc.* file or an **eslintConfig** field in a package.json file.
 
+#### RULES
+
+- **@typescript-eslint/strict-boolean-expressions**: forbids usage of non-boolean types in expressions where a boolean is expected
+
 ### ```.eslintignore```
 
 To tell ESLint to ignore specific files and directories. Each line in the file is a glob pattern indicating which paths should be omitted from linting.
