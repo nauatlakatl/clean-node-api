@@ -39,6 +39,7 @@ Scripts that you can set up to run at certain events in the Git lifecycle.
 - **coverageDirectory**: the directory where Jest should output its coverage files.
 - **testEnvironment**: test environment that will be used for testing.
 - **transform**: a map from regular expressions to paths to transformers. A transformer is a module that provides a synchronous function for transforming source files. Jest runs the code in your project as JS, but if you use some syntax not supported by Node.js out of the box (like TS) then you'll need to transform that code into plain JS. *{filePattern: ['path-to-transformer´]}*
+- **testMatch**: an array of strings that has glob patterns that Jest uses to detect files. By default it looks for files in *test* folder as well as any files with a suffix of ```.test``` or ```.spec```.
 
 ### FLAGS
 
@@ -68,3 +69,7 @@ Jest transformer with source map support that lets you use Jest to test projects
 
 Config files.
 npm gets config settings from the command line, environment variables, and ```npmrc``` files.
+
+## spec.ts
+
+Unit tests for source files. See option **testMatch** for ```jest.config.js``` file for more information.
