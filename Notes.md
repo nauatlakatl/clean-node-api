@@ -68,6 +68,12 @@ Configuration is an object where each value is a command to run and its key is a
 
 Jest transformer with source map support that lets you use Jest to test projects written in TypeScript.
 
+---
+
+## git-commit-msg-linter
+
+A git "commit-msg" hook for linting your git commit message against the popular Angular Commit Message Guidelines. As a hook it will run at every committing to make sure that the message to commit is valid against the conventions. If not the commit will be aborted.
+
 # FILES
 
 ## npmrc
