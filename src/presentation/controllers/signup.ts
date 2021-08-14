@@ -4,11 +4,10 @@ import { badRequest } from "../helpers/http-helper";
 
 export class SignUpController {
     handle(httpRequest: HttpRequest): HttpResponse {
-        if (!httpRequest.body.username) {
-            return badRequest(new MissingParamError("username"))
-        }
-        if (!httpRequest.body.email) {
-            return badRequest(new MissingParamError("email"))
+        const requiredFields = ["username", "email"]
+        for (const field of requiredFields) {
+            if (!httpRequest.body[field])
+                return badRequest(new MissingParamError(field))
         }
     }
 }
