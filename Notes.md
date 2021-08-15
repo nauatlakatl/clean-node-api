@@ -84,3 +84,7 @@ npm gets config settings from the command line, environment variables, and ```np
 ## spec.ts
 
 Unit tests for source files. See option **testMatch** for ```jest.config.js``` file for more information.
+
+## index.ts
+
+A barrel is a way to rollup exports from several module into a single convenience module. The barrel itself is a module file that re-exports selected exports of other modules.
