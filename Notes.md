@@ -88,3 +88,12 @@ Unit tests for source files. See option **testMatch** for ```jest.config.js``` f
 ## index.ts
 
 A barrel is a way to rollup exports from several module into a single convenience module. The barrel itself is a module file that re-exports selected exports of other modules.
+
+# DESIGN PATTERNS
+
+## Factory Method
+
+Creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+The Factory Method pattern suggests that you replace direct object construction calls (using the ***new*** operator) with calls to a special factory method. Objects returned by a factory method are often referred to as *products*.
+Now you can override the factory method in a subclass and change the class of products being created by the method.
