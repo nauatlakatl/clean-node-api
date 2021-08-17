@@ -97,3 +97,9 @@ Creational design pattern that provides an interface for creating objects in a s
 
 The Factory Method pattern suggests that you replace direct object construction calls (using the ***new*** operator) with calls to a special factory method. Objects returned by a factory method are often referred to as *products*.
 Now you can override the factory method in a subclass and change the class of products being created by the method.
+
+# ARCHITECTURE
+
+## DOMAIN LAYER
+
+Collection of entity objects and related business logic that is designed to represent the enterprise business model.
