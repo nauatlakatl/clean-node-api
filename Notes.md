@@ -49,6 +49,12 @@ Scripts that you can set up to run at certain events in the Git lifecycle.
 
 - --passWithNoTests: allows the test suite to pass when no files are found
 - --watch: watch files for changes and rerun tests related to changed files
+- --silent: prevent tests from printing messages through the console
+- --noStackTrace: disables stack trace in test results output
+- --runInBand/-i: run all tests serially in the current process, rather than creating a worker pool of child processes that run tests. Useful for debugging
+- --findRelatedTests: find and run the tests that cover a space separated list of source files that were passed in as arguments. Useful for pre-commit hook integration to run the minimal amount of tests necessary
+- --coverage/--collectCoverage: indicates that test coverage information should be collected and reported in the output
+- --config/-c: the path to a Jest config file specifying how to find and execute tests
 
 ---
 
