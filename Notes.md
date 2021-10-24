@@ -80,6 +80,12 @@ Jest transformer with source map support that lets you use Jest to test projects
 
 A git "commit-msg" hook for linting your git commit message against the popular Angular Commit Message Guidelines. As a hook it will run at every committing to make sure that the message to commit is valid against the conventions. If not the commit will be aborted.
 
+---
+
+## validator
+
+A library of string validators and sanitizers
+
 # FILES
 
 ## npmrc
