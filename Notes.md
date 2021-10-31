@@ -86,6 +86,18 @@ A git "commit-msg" hook for linting your git commit message against the popular 
 
 A library of string validators and sanitizers
 
+---
+
+## @shelf/jest-mongodb
+
+Jest preset to run MongoDB memory server
+
+---
+
+## mongodb-memory-server
+
+This package spins up an actual/real MongoDB server programatically from within Node.js, for test or mocking during development.
+
 # FILES
 
 ## npmrc

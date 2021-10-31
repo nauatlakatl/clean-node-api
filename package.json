@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/AlbertSawZ/tetlamamaka-server#readme",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^2.1.0",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.10",
@@ -42,6 +43,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "mongodb": "^4.1.3",
     "validator": "^13.6.0"
   }
 }
