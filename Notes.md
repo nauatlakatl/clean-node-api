@@ -92,6 +92,10 @@ A library of string validators and sanitizers
 
 Jest preset to run MongoDB memory server
 
+### ```globalConfig.json```
+
+File created in the project root when using jest --watch flag
+
 ---
 
 ## mongodb-memory-server
