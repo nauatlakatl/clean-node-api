@@ -102,6 +102,12 @@ File created in the project root when using jest --watch flag
 
 This package spins up an actual/real MongoDB server programatically from within Node.js, for test or mocking during development.
 
+---
+
+## Sucrase
+
+Alternative to Babel that allows super-fast development builds. 
+
 # FILES
 
 ## npmrc
