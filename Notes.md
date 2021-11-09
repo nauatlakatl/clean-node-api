@@ -108,6 +108,12 @@ This package spins up an actual/real MongoDB server programatically from within 
 
 Alternative to Babel that allows super-fast development builds. 
 
+---
+
+## SuperTest
+
+To provide a high-level abstraction for testing HTTP. HTTP assertions.
+
 # FILES
 
 ## npmrc
