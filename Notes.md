@@ -114,6 +114,12 @@ Alternative to Babel that allows super-fast development builds.
 
 To provide a high-level abstraction for testing HTTP. HTTP assertions.
 
+---
+
+## fast-glob
+
+Provides methods for traversing the file system and returning pathnames that matched a defined set of a specified pattern; results are returned in arbitrary order.
+
 # FILES
 
 ## npmrc
