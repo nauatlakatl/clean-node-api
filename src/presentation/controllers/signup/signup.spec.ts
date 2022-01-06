@@ -69,65 +69,6 @@ interface SutTypes {
 }
 
 describe("SignUp Controller", () => {
-    test("Should return 400 if no username is provided", async () => {
-        const { sut } = makeSut()
-        const httpRequest = {
-            body: {
-                email: "any_email@mail.com",
-                password: "any_password",
-                passwordConfirmation: "any_password"
-            }
-        }
-
-        const httpResponse = await sut.handle(httpRequest)
-
-        expect(httpResponse).toEqual(badRequest(new MissingParamError("username")))
-    })
-
-    test("Should return 400 if no email is provided", async () => {
-        const { sut } = makeSut()
-        const httpRequest = {
-            body: {
-                username: "any_username",
-                password: "any_password",
-                passwordConfirmation: "any_password"
-            }
-        }
-
-        const httpResponse = await sut.handle(httpRequest)
-
-        expect(httpResponse).toEqual(badRequest(new MissingParamError("email")))
-    })
-
-    test("Should return 400 if no password is provided", async () => {
-        const { sut } = makeSut()
-        const httpRequest = {
-            body: {
-                username: "any_username",
-                email: "any_email@mail.com",
-                passwordConfirmation: "any_password"
-            }
-        }
-
-        const httpResponse = await sut.handle(httpRequest)
-
-        expect(httpResponse).toEqual(badRequest(new MissingParamError("password")))
-    })
-
-    test("Should return 400 if no password confirmation is provided", async () => {
-        const { sut } = makeSut()
-        const httpRequest = {
-            body: {
-                username: "any_username",
-                email: "any_email@mail.com",
-                password: "any_password"
-            }
-        }
-
-        const httpResponse = await sut.handle(httpRequest)
-
-        expect(httpResponse).toEqual(badRequest(new MissingParamError("passwordConfirmation")))
-    })
 
     test("Should return 400 if password confirmation fails", async () => {
         const { sut } = makeSut()
