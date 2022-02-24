@@ -27,6 +27,7 @@ Based on the [clean-ts-api](https://github.com/rmanguinho/clean-ts-api) reposito
 - Adapter
 - Decorator
 - Dependency Injection
+- Composite
 
 ## METHODOLOGIES/DESIGNS APPLIED
 
