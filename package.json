@@ -1,5 +1,5 @@
 {
-  "name": "tetlamamaka-server",
+  "name": "clean-node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertSawZ/tetlamamaka-server.git"
+    "url": "git+https://github.com/nauatlakatl/clean-node-api.git"
   },
   "author": "Miguel Guerrero",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlbertSawZ/tetlamamaka-server/issues"
+    "url": "https://github.com/nauatlakatl/clean-node-api/issues"
   },
-  "homepage": "https://github.com/AlbertSawZ/tetlamamaka-server#readme",
+  "homepage": "https://github.com/nauatlakatl/clean-node-api#readme",
   "devDependencies": {
     "@shelf/jest-mongodb": "^2.1.0",
     "@types/bcrypt": "^5.0.0",

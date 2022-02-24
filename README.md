@@ -1,4 +1,4 @@
-# TETLAMAMAKA - CLEAN NODE API
+# CLEAN NODE API
 
 The purpose of this repository is to show an implementation of a Node.js API with a well-defined and decoupled architecture, using TDD as a working methodology, Clean Architecture to distribute responsibilities in layers, always following the principles of SOLID and Design Patterns.
 
